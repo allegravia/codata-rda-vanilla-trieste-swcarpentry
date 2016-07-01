@@ -1,1 +1,424 @@
-CODATA-RDA Vanilla School 2016
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>CODATA RDA Vanilla School Trieste 2016 - swcarpentry module</title>
+  <meta name="description" content="Program and material for the software carpentry module at the CODATA RDA Vanilla School Trieste 2016
+">
+
+  <link rel="stylesheet" href="/codata-rda-vanilla-trieste-swcarpentry/css/main.css">
+  <link rel="canonical" href="/codata-rda-vanilla-trieste-swcarpentry/index.html">
+<!--
+  <link rel="alternate" type="application/atom+xml" title="EMBO Budapest" href="/codata-rda-vanilla-trieste-swcarpentry/feed.xml" />
+</head>
+-->
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/codata-rda-vanilla-trieste-swcarpentry/">>CODATA RDA Vanilla School Trieste 2016 - swcarpentry module</a>
+
+<!--
+    <a href="http://embo.org"><img src="/codata-rda-vanilla-trieste-swcarpentry/images/EMBO_logo.gif" height="70"></a>
+    <a href="http://ttk.elte.hu/"><img src="/codata-rda-vanilla-trieste-swcarpentry/images/ELTE_logo.gif" height="70"></a>
+    <a href="http://www.embo.org/events/practical-courses"><img src="/codata-rda-vanilla-trieste-swcarpentry/images/EMBO_PracticalCourse.gif" height="70"></a>
+
+-->
+    <nav class="site-nav">
+        
+    <!-- see http://www.chrisanthropic.com/blog/2014/using-_data-to-build-jekyll-navigation/ -->
+
+<!--
+
+<nav class="animenu">   
+
+    <ul>
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/programme.html'>Course Program</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/allegraVia/linux_commandline.html'>Introduction to Linux command-line</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/tamasKorcsmaros/ppi_networks.html'>Introduction to PPI networks</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/larsJuhlJensen/'>STRING</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/nadezhdaDoncheva/'>Network visualization with Cytoscape</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/scooterMorris/'>Chimera</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/aidanBudd/unseminar.html'>Unseminar</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/allegraVia/structure_and_interfaces.html'>Structure and interfaces of PPIs</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/oraSchuelerFurman/'>Peptide and protein docking</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/tobyGibson/MSA_Jalview.html'>MSA & Jalview</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/marcoPunta/'>Protein Families</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/miguelAndrade/homology.html'>Protein Feature Prediction</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/miguelAndrade/repeats.html'>Repeats and low complexity regions</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/zsuzsannaDosztanyi/'>Intrinsically disordered proteins</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/holgerDinkel/linear_motifs/'>Short Linear Motifs</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/holgerDinkel/REST_services/'>REST services</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/natashaWood/'>Molecular dynamics</a></li>
+        
+      
+        
+        <li><a href='/codata-rda-vanilla-trieste-swcarpentry/trainingMaterial/scooterMorris/combi_session/'>Combined Cytoscape Session</a></li>
+        
+      
+    </ul>
+
+</nav> 
+
+-->
+ 
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Software Carpentry Module</h1>
+    <h1 class="post-title">Programme</h1>
+  </header>
+
+  <article class="post-content">
+    
+    <style>
+tr:nth-child(even) {
+    background-color: #DDDDDD;
+};
+td:nth-child(1) { width:15%; }
+td:nth-child(2) { width:60%; }
+td:nth-child(3) { width:20%; }
+td:nth-child(4) { width: 5%;}
+</style>
+
+<!--
+<h2 id="other-relevant-links">Other relevant links</h2>
+
+<ul>
+  <li>EMBO-hosted <a href="http://events.embo.org/16-protein-protein/">webpage for the course</a></li>
+  <li>Twitter search results for for <a href="https://twitter.com/search?q=%23EMBOPPI&amp;src=typd&amp;lang=en-gb">#EMBOPPI</a> and <a href="https://twitter.com/AidanBudd/lists/embo-2016-ppi-tweeps">Course tweeters list</a></li>
+</ul>
+-->
+
+<h2 id="day-1---monday-01-august-2016">DAY 1 - Monday  01 August 2016</h2>
+
+<h3 id="main tutors stefano cozzini---allegra via">Main tutors: Stefano Cozzini - Allegra Via</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Time</th>
+      <th style="text-align: left">Activity</th>
+      <th style="text-align: left">Responsible</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">09:00–10:30</td>
+      <td style="text-align: left"><a href="trainingMaterial/the_unix_shell">The Unix Shell</a></td>
+      <td style="text-align: left">Allegra Via and Stefano Cozzini</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10:30–11:00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11:00–13:00</td>
+      <td style="text-align: left"><a href="trainingMaterial/the_unix_shell">The Unix Shell</a></td>
+      <td style="text-align: left">Allegra Via and Stefano Cozzini</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13:00–14:00</td>
+      <td style="text-align: left"><em>Lunch</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14:00–15:30</td>
+      <td style="text-align: left"><a href="trainingMaterial/the_unix_shell">The Unix Shell</a></td>
+      <td style="text-align: left">Allegra Via and Stefano Cozzini</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15:30–16:00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16:00–18:00</td>
+      <td style="text-align: left"><a href="trainingMaterial/version_control_with_git">Version Control with Git</a></td>
+      <td style="text-align: left">Stefano Cozzini and Allegra Via</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="day-2---tuesday-02-august-2016">DAY 2 - Tuesday 02 August 2016</h2>
+
+<h3 id="main tutor-vincenza colonna">Main Tutor: Vincenza Colonna</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Time</th>
+      <th style="text-align: left">Activity</th>
+      <th style="text-align: left">Responsible</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">09.00–10.30</td>
+      <td style="text-align: left"><a href="trainingMaterial/version_control_with_git">Version Control with Git</a></td>
+      <td style="text-align: left">Stefano Cozzini and Allegra Via</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10.30–11.00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11.00–13.00</td>
+      <td style="text-align: left"><a href="trainingMaterial/version_control_with_git">Version Control with Git</a></td>
+      <td style="text-align: left">Stefano Cozzini and Allegra Via</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13.00–14.00</td>
+      <td style="text-align: left"><em>Lunch</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14.00–15.30</td>
+      <td style="text-align: left"><a href="trainingMaterial/programming_with_r">Programming with R</a></td>
+      <td style="text-align: left">Vincenza Colonna</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15.30–16.00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16.00–18.00</td>
+      <td style="text-align: left"><a href="trainingMaterial/programming_with_r">Programming with R</a></td>
+      <td style="text-align: left">Vincenza Colonna</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="day-3---wednesday-03-august-2016">DAY 3 - Wednesday 03 August 2016</h2>
+
+<h3 id="main-tutors-vincenza-colonna---giuseppe-profiti">Main Tutors: Vincenza Colonna - Giuseppe Profiti</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Time</th>
+      <th style="text-align: left">Activity</th>
+      <th style="text-align: left">Responsible</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">09.00–10.30</td>
+      <td style="text-align: left"><a href="trainingMaterial/programming_with_r">Programming with R</a></td>
+      <td style="text-align: left">Vincenza Colonna</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10.30–11.00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11.00–13.00</td>
+      <td style="text-align: left"><a href="trainingMaterial/programming_with_r">Programming with R</a></td>
+      <td style="text-align: left">Vincenza Colonna</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13.00–14.00</td>
+      <td style="text-align: left"><em>Lunch</em> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14.00–15.30</td>
+      <td style="text-align: left"><a href="trainingMaterial/using_database_and_sql">Using Databases and SQL</a></td>
+      <td style="text-align: left">Giuseppe Profiti</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15.30–16.00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16.00–18.00</td>
+      <td style="text-align: left"><a href="trainingMaterial/using_database_and_sql">Using Databases and SQL</a></td>
+      <td style="text-align: left">Giuseppe Profiti</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="day-4---thursday-02-june-2016">DAY 4 - Thursday 04 August 2016</h2>
+<h3 id="main-tutor-giuseppe-profiti">Main Tutor: Giuseppe Profiti</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Time</th>
+      <th style="text-align: left">Activity</th>
+      <th style="text-align: left">Responsible</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">09.00–10.30</td>
+      <td style="text-align: left"><a href="trainingMaterial/using_database_and_sql">Using Databases and SQL</a></td>
+      <td style="text-align: left">Giuseppe Profiti</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10.30–11.00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11.00–13.00</td>
+      <td style="text-align: left"><a href="trainingMaterial/using_database_and_sql">Using Databases and SQL</a></td>
+      <td style="text-align: left">Giuseppe Profiti</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13.00–14.00</td>
+      <td style="text-align: left"><em>Lunch</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14.00–15.30</td>
+      <td style="text-align: left"><a href="trainingMaterial/using_database_and_sql">Using Databases and SQL</a></td>
+      <td style="text-align: left">Giuseppe Profiti</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15.30–16.00</td>
+      <td style="text-align: left"><em>Coffee break</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16.00–17.00</td>
+      <td style="text-align: left"><a href="trainingMaterial/using_database_and_sql">Using Databases and SQL</a></td>
+      <td style="text-align: left">Giuseppe Profiti</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <hr>
+
+    <h2 class="footer-heading">Software Carpentry Module</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <b>Contact:</b>
+        <ul class="contact-list">
+          <li>Allegra Via<a href="mailto:a.via@ibbe.cnr.it"> a.via@ibbe.cnr.it</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text"> Program and material for the software carpentry module at the CODATA RDA Vanilla School Trieste 2016
+</p>
+      </div>
+    </div>
+
+<!--
+
+    <div>
+      <h2> Sponsors:</h2>
+      <a href="http://msb.embopress.org/"><img src="/codata-rda-vanilla-trieste-swcarpentry/images/msb_embopress_logo_rgb.gif" height="70"></a>
+    </div>
+    <div>
+      <h2> With assistance from:</h2>
+      <img src="/codata-rda-vanilla-trieste-swcarpentry/images/cost-blue.png" height="70">
+      <img src="/codata-rda-vanilla-trieste-swcarpentry/images/ngpnet-logo.png" height="70">
+    </div>
+
+  </div>
+
+-->
+
+</footer>
+
+
+  </body>
+
+</html>
+
