@@ -1,0 +1,20 @@
+# Site settings
+title: Software Carpentry Module
+contact: Allegra Via 	
+email: a.via@ibbe.cnr.it 
+description: > # this means to ignore newlines until "baseurl:"
+  Programme and materials for the software carpentry module of the codata-rda vanilla school 2016 in Trieste
+
+baseurl: "/codata-rda-vanilla-trieste-swcarpentry/" # the subpath of your site, e.g. /blog/
+url: "https://allegravia.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+defaults:
+  - values:
+      layout: "page"
+#      navigation: 999
+
+# change server port to 3000
+port: 3000

@@ -1,5 +1,5 @@
 ---
-title: Introduction to Linux command-line 
+title: The Unix Shell  
 
 author: Allegra Via
 navigation: 11
@@ -19,10 +19,15 @@ navigation: 11
 * Learners can connect to a remote computer and transfer files from/to it
 
 
-### Linux command line:
+### The Unix Shell:
 
-- Theory ([PPT presentation](./linux_command_line/Unix-Theory-EMBO-Budapest.ppt))
-- Tutorial ([pdf document](./linux_command_line/Academis_Linux.pdf); [zipped folder](./linux_command_line/unix_tutorial.zip))
+- [Introducing the Shell](./00-intro.html)
+- [Navigating Files and Directories](./01-filedir.html)
+- [Working With Files and Directories](./02-create.html)
+- [Pipes and Filters](./03-pipefilter.html)
+- [Loops](./04-loop.html)
+- [Shell Scripts](./05-script.html)
+- [Finding Things](./06-find.html)
 
 
 Bibliography:
