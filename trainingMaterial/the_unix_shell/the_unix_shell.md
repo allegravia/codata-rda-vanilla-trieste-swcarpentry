@@ -32,4 +32,4 @@ navigation: 11
 
 Bibliography:
 
-- Linux commands ([PDF](./linux_command_line/OnePageLinuxManual.pdf))
+- Linux commands ([PDF](./docs/OnePageLinuxManual.pdf))
