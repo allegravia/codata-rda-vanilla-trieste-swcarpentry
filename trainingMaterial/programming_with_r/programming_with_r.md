@@ -21,7 +21,7 @@ navigation: 11
 
 ### The Unix Shell:
 
-- [Introducing the Shell](./00-intro.html)
+- [Introducing the Shell](./01-starting-with-data.html)
 - [Navigating Files and Directories](./01-filedir.html)
 - [Working With Files and Directories](./02-create.html)
 - [Pipes and Filters](./03-pipefilter.html)
