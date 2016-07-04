@@ -8,10 +8,10 @@ navigation: 11
 ### Learning Objectives 
 * TBA
 
-### The Unix Shell:
+### Using databases and SQL
 
 - [Selecting Data](./01-select.html)
 
 
-Bibliography:
+### Bibliography
 
