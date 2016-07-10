@@ -6,7 +6,11 @@ navigation: 11
 ---
 
 ### Learning Objectives 
-* TBA
+* understanding when and why a database is useful
+* extracting specific data
+* manipulating the selected data
+* combining different datasets
+* creating your own database
 
 ### Using databases and SQL
 
@@ -17,7 +21,10 @@ navigation: 11
 - [Missing Data](./05-null.html)
 - [Aggregation](./06-agg.html)
 - [Combining data](./07-join.html)
-
+- [Data Hygiene](./08-hygiene.html)
+- [Creating and Modifying Data](./09-create.html)
 
 ### Bibliography
 
+- [SQL tutorial at w3schools.com](http://www.w3schools.com/sql/)
+- Any textbook on plain SQL
