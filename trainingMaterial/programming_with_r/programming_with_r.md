@@ -1,35 +1,26 @@
 ---
-title: The Unix Shell  
+title: Programing with R 
 
-author: Allegra Via
+author: Vincenza Colonna  
 navigation: 11
 ---
 
 ### Learning Objectives 
 
-* Learners can tell what the shell is
-* Learners can start a Linux terminal
-* Learners can open a text file with a text editor, write to it and save it.
-* Learners can describe the structure of the filesystem tree
-* Learners can navigate the filesystem 
-* Learners can manage files and directories
-* Learners can tell the difference between command's options and arguments
-* Learners can write and run programs on Linux
-* Learners can change file permissions
-* Learners can connect to a remote computer and transfer files from/to it
+* TBA 
 
 
-### The Unix Shell:
+### Programming with R:
 
-- [Introducing the Shell](./00-intro.html)
-- [Navigating Files and Directories](./01-filedir.html)
-- [Working With Files and Directories](./02-create.html)
-- [Pipes and Filters](./03-pipefilter.html)
-- [Loops](./04-loop.html)
-- [Shell Scripts](./05-script.html)
-- [Finding Things](./06-find.html)
+- [Starting with data](./01-starting-with-data.html)
+- [Addressing data](./01-supp-addressing-data.html)
+- [Read and Write .csv](./01-supp-read-write-csv.html)
+- [Function with R](./02-func-R.html)
+- [Loops](./03-loops-R.html)
+- [Commandline R ](./05-cmdline.html)
+- [Best Practices](./06-best-practices-R.html)
 
 
 Bibliography:
 
-- Linux commands ([PDF](./docs/OnePageLinuxManual.pdf))
+TBA

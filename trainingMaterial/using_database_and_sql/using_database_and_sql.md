@@ -1,35 +1,30 @@
 ---
-title: The Unix Shell  
+title: Using databases and SQL
 
-author: Allegra Via
+author: Giuseppe Profiti
 navigation: 11
 ---
 
 ### Learning Objectives 
+* understanding when and why a database is useful
+* extracting specific data
+* manipulating the selected data
+* combining different datasets
+* creating your own database
 
-* Learners can tell what the shell is
-* Learners can start a Linux terminal
-* Learners can open a text file with a text editor, write to it and save it.
-* Learners can describe the structure of the filesystem tree
-* Learners can navigate the filesystem 
-* Learners can manage files and directories
-* Learners can tell the difference between command's options and arguments
-* Learners can write and run programs on Linux
-* Learners can change file permissions
-* Learners can connect to a remote computer and transfer files from/to it
+### Using databases and SQL
 
+- [Selecting Data](./01-select.html)
+- [Sorting and Removing Duplicates](./02-sort-dup.html)
+- [Filtering](./03-filter.html)
+- [Calculating New Values](./04-calc.html)
+- [Missing Data](./05-null.html)
+- [Aggregation](./06-agg.html)
+- [Combining data](./07-join.html)
+- [Data Hygiene](./08-hygiene.html)
+- [Creating and Modifying Data](./09-create.html)
 
-### The Unix Shell:
+### Bibliography
 
-- [Introducing the Shell](./00-intro.html)
-- [Navigating Files and Directories](./01-filedir.html)
-- [Working With Files and Directories](./02-create.html)
-- [Pipes and Filters](./03-pipefilter.html)
-- [Loops](./04-loop.html)
-- [Shell Scripts](./05-script.html)
-- [Finding Things](./06-find.html)
-
-
-Bibliography:
-
-- Linux commands ([PDF](./docs/OnePageLinuxManual.pdf))
+- [SQL tutorial at w3schools.com](http://www.w3schools.com/sql/)
+- Any textbook on plain SQL
