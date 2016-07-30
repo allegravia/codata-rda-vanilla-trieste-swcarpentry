@@ -38,5 +38,5 @@ navigation: 11
 - **Linux Tutorial** ([PDF](Academis_Linux.pdf))
 <br>This is a tutorial to practice Linux commands. It consists in a treasure hunt game in which participants have to use Linux commands to navigate the filesystem in order to find out the characters composing two words. The game is described more in detail in the second page of the tutorial. 
 
-- **Tutorial folder** ([unix_tutorial.zip](unix_tutorial.zip))**
+- **Tutorial folder** ([unix_tutorial.zip](unix_tutorial.zip))
 <br>In order to carry out the Linux tutorial, you have to download and uncompress [`unix_tutorial.zip`](unix_tutorial.zip). Once you have downloaded and unzipped `unix_tutorial.zip`, use the `cd` Linux command to go to the `unix_tutorial` directory and start the treasure hunt. Good luck!  
