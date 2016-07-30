@@ -5,9 +5,6 @@ author: Nicola Cavallini and Alberto Sartori
 navigation: 11
 ---
 
-## Version Control with Git
-
-
 ### Instructors
 Nicola Cavallini
 <br> Alberto Sartori 
