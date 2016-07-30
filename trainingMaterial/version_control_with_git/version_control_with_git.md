@@ -1,13 +1,26 @@
 ---
 title: Version Control with Git  
 
-author: Stefano Cozzini 
+author: Nicola Cavallini and Alberto Sartori 
 navigation: 11
 ---
 
-### Learning Objectives 
+## Version Control with Git
 
-### Version Control with Git
+
+### Instructors
+Nicola Cavallini
+<br> Alberto Sartori 
+
+### Helpers
+Stefano Cozzini
+<br>Allegra Via
+
+### Materials
+
+You can find [here](https://github.com/nicolacavallini/codata) Lectures on Version Control with Git prepared for the SWC module @ The CODATA-RDA Summer School.
+
+Here you can also find the [SWC lessons](http://swcarpentry.github.io/git-novice/) for this topic:
 
 * [Basics](./01-basics.html)
 * [Setup](./02-setup.html)
