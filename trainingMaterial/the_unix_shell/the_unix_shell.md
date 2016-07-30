@@ -1,7 +1,7 @@
 ---
 title: The Unix Shell  
 
-author: Allegra Via
+author: Allegra Via and Stefano Cozzini
 navigation: 11
 ---
 
