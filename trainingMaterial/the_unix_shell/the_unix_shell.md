@@ -30,7 +30,7 @@ navigation: 11
 - [Finding Things](./06-find.html)
 
 
-###Additional materials
+### Additional materials
 
 - **Linux commands** ([PDF](./docs/OnePageLinuxManual.pdf))
 <br>This is a Linux Cheat Sheet listing the most used bash commands.
