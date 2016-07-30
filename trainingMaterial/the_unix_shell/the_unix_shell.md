@@ -30,6 +30,13 @@ navigation: 11
 - [Finding Things](./06-find.html)
 
 
-Bibliography:
+###Additional materials
 
-- Linux commands ([PDF](./docs/OnePageLinuxManual.pdf))
+- **Linux commands** ([PDF](./docs/OnePageLinuxManual.pdf))
+<br>This is a Linux Cheat Sheet listing the most used bash commands.
+
+- **Linux Tutorial** ([PDF](Academis_Linux.pdf))
+<br>This is a tutorial to practice Linux commands. It consists in a treasure hunt game in which participants have to use Linux commands to navigate the filesystem in order to find out the characters composing two words. The game is described more in detail in the second page of the tutorial. 
+
+- **[unix_tutorial.zip](unix_tutorial.zip)**
+<br>In order to carry out the Linux tutorial, you have to download and uncompress [unix_tutorial.zip](unix_tutorial.zip). Once you have downloaded and unzipped `unix_tutorial.zip`, use the `cd` Linux command to go to the `unix tutorial` directory and start the treasure hunt. Good luck!  
