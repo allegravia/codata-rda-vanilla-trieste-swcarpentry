@@ -35,7 +35,7 @@ navigation: 11
 - **Linux commands** ([PDF](./docs/OnePageLinuxManual.pdf))
 <br>This is a Linux Cheat Sheet listing the most used bash commands.
 
-- **Linux Tutorial** ([PDF](Academis_Linux.pdf))
+- **Linux Tutorial** ([PDF](./docs/Academis_Linux.pdf))
 <br>This is a tutorial to practice Linux commands. It consists in a treasure hunt game in which participants have to use Linux commands to navigate the filesystem in order to find out the characters composing two words. The game is described more in detail in the second page of the tutorial. 
 
 - **Tutorial folder** ([unix_tutorial.zip](unix_tutorial.zip))
